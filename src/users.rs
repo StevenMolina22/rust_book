@@ -4,6 +4,7 @@ use rand::Rng;
 
 
 pub fn play_guessing() {
+    println!("--- WELCOME TO THE USERS CRATE ---");
     println!("Guess the number!");
     let secret_num = rand::thread_rng().gen_range(1..=10);
     println!("Please input your guess.");
@@ -34,6 +35,7 @@ pub fn play_guessing() {
 }
 
 pub fn mut_array(arr: [i32; 5]) {
+    println!("--- WELCOME TO THE USERS CRATE ---");
     println!("Enter an array index: ");
 
     let mut index = String::new();
